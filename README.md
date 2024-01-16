@@ -1,3 +1,5 @@
+Need to fork to fix some jsonl problem
+
 ### [A Few Thousand Translations Go a Long Way! Leveraging Pre-trained Models for African News Translation](https://arxiv.org/abs/2205.02022) 
 
 This repository contains a newly created MT dataset in the news domain known as [MAFAND-MT](https://github.com/masakhane-io/lafand-mt/tree/main/data/json_files) for 16 languages and 5 existing news MT corpus. We also provide the code for [training MT models](https://github.com/masakhane-io/lafand-mt/blob/main/run_translation.py) using pre-trained models like MT5, MBART, ByT5 and M2M-100, and a [notebook](https://github.com/masakhane-io/lafand-mt/blob/main/lafand.ipynb) that can be used on Google Colab. For you to use the code, your dataset should be in json format and you have to specify the right language code, if the language code is not supported by the pre-trained model, you can use a fake language code supported. 
